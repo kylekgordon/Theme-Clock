@@ -38,15 +38,16 @@ body {
 }
 
 .footer {
-  background-color: rgba(255, 255, 255, 0.692);
+  background-color: var(--primary-color);
   background-size: 20px;
-  position: fixed;
+  position: relative;
   font-family: 'Roboto', sans-serif;
-  left: 40%;
+  align-items: center;
   bottom: 0;
-  width: 20%;
-  color: rgb(0, 0, 0);
+  min-width: 30%;
+  color: var('--secondary-color');
   text-align: center;
+  margin: 10px;
 }
 
 .toggle {
