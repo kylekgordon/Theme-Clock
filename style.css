@@ -47,7 +47,7 @@ body {
   background-size: 20px;
   position: relative;
   font-family: 'Roboto', sans-serif;
-  align-items: bottom center;
+  align-items: center;
   bottom: 0;
   min-width: 30%;
   color: var(--primary-color);
